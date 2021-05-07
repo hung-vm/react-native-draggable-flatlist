@@ -8,6 +8,10 @@
     "test": "jest",
     "build": "tsc"
   },
+  "files": [
+    "lib/",
+    "src/"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
